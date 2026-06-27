@@ -1,0 +1,110 @@
+.testimonials {
+  padding: 20px 0 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+.arrows {
+  display: flex;
+  gap: 12px;
+}
+
+.arrowBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color-bg-soft);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.arrowBtn:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 28px 24px 28px 32px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 10px 30px rgba(15, 27, 43, 0.06);
+}
+
+.accentBar {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  bottom: 16px;
+  width: 6px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-pill);
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cardBody {
+  flex: 1;
+}
+
+.quote {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+  margin: 0 0 14px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  margin: 0 0 2px;
+}
+
+.role {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

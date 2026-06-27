@@ -32,7 +32,7 @@ function Footer() {
 							alt='DigitalOcean logo'
 							className={styles.logoIcon}
 						/>
-						<span className={styles.logoText}>DigitalOcean</span>
+						{/* <span className={styles.logoText}>DigitalOcean</span> */}
 					</div>
 					<p className={styles.brandLine}>Smart business</p>
 					<p className={styles.brandLine}>Community</p>
@@ -80,16 +80,16 @@ function Footer() {
 
 					<div className={styles.socials}>
 						<a href='#' aria-label='Facebook' className={styles.socialIcon}>
-							<img src="./public/images/facebook" alt="" />
+							<img src="/images/facebook" alt="" />
 						</a>
 						<a href='#' aria-label='Twitter' className={styles.socialIcon}>
-							<img src="./public/images/Twitter" alt="" />
+							<img src="/images/Twitter" alt="" />
 						</a>
 						<a href='#' aria-label='YouTube' className={styles.socialIcon}>
-							<img src="./public/images/youtube" alt="" />
+							<img src="/images/youtube" alt="" />
 						</a>
 						<a href='#' aria-label='Instagram' className={styles.socialIcon}>
-							<img src="./public/images/Instagram" alt="" />
+							<img src="/images/Instagram" alt="" />
 						</a>
 					</div>
 

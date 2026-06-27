@@ -23,15 +23,15 @@
 }
 
 .logoIcon {
-  width: 24px;
-  height: 24px;
+  width: 69px;
+  height: 69px;
 }
 
-.logoText {
+/* .logoText {
   font-weight: 600;
   font-size: 14px;
   color: var(--color-primary);
-}
+} */
 
 .brandLine {
   font-size: 14px;

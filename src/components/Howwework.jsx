@@ -41,9 +41,9 @@ function HowWeWork() {
 								step.highlighted ? styles.cardHighlighted : ''
 							}`}
 						>
-							{/* <div className={styles.iconWrapper}>
+							<div className={styles.iconWrapper}>
 								<img src={step.icon} alt='' className={styles.icon} />
-							</div> */}
+							</div>
 							<h3 className={styles.cardTitle}>{step.title}</h3>
 							<p className={styles.cardDescription}>{step.description}</p>
 						</div>
